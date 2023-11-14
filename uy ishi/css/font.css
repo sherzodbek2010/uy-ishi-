@@ -1,0 +1,42 @@
+/* Comfortaa */
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(../fonts/Outfit-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(../fonts/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+
+/* Montserrat */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Outfit-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+
+/* Roboto */
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Outfit-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+

@@ -1,0 +1,79 @@
+@import url(./fonts.css);
+
+:root {
+    --White: #fff;
+    --Blue: #2C7DFA;
+    --Dark-Navy: #1F314F;
+    --Grey: #7D889E;
+    --Outfit: "Outfit";
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 18px;
+    line-height: 32px;
+    background: #fff;
+    font-family: var(--Outfit);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.main {
+    background: var(--White);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Outfit);
+}
+
+.qr-kode-component {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    background: #2C7DFA;
+}
+
+.qr-kode-component-score__title {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--Outfit);
+    color: var(--Dark-Navy);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.qr-kode-component-score__text {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.188px;
+    font-family: var(--Outfit);
+    text-align: center;
+    color: var(--Grey);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+}
+
+.qr-kode-component-summary__logo {
+    width: 160px;
+    height: 160px;
+}
